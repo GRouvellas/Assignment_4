@@ -11,6 +11,7 @@ public class QuickSort {
 
     int[] arr;
     ArrayList<TShirt> tShirt_li;
+    ArrayList<TShirt> tShirt_qS;
 
     public QuickSort(int[] arr) {
         this.arr = arr;
@@ -336,7 +337,6 @@ public class QuickSort {
     }
 
     public void quickSortByColorAsc(int n, ArrayList<TShirt> tsli) {
-        ArrayList<TShirt> tShirt_qS;
         long starttime = System.currentTimeMillis();
         QuickSort qsort_q = new QuickSort(tsli);
         tShirt_qS = qsort_q.myquickSort_ci_asc(0, tsli.size() - 1);
@@ -349,7 +349,6 @@ public class QuickSort {
     }
 
     public void quickSortBySizeAsc(int n, ArrayList<TShirt> tsli) {
-        ArrayList<TShirt> tShirt_qS;
         long starttime = System.currentTimeMillis();
         QuickSort qsort_q = new QuickSort(tsli);
         tShirt_qS = qsort_q.myquickSort_si_asc(0, tsli.size() - 1);
@@ -362,7 +361,6 @@ public class QuickSort {
     }
 
     public void quickSortByFabricAsc(int n, ArrayList<TShirt> tsli) {
-        ArrayList<TShirt> tShirt_qS;
         long starttime = System.currentTimeMillis();
         QuickSort qsort_q = new QuickSort(tsli);
         tShirt_qS = qsort_q.myquickSort_fi_asc(0, tsli.size() - 1);
@@ -375,7 +373,6 @@ public class QuickSort {
     }
 
     public void quickSortBySizeColorFabricAsc(int n, ArrayList<TShirt> tsli) {
-        ArrayList<TShirt> tShirt_qS;
         long starttime = System.currentTimeMillis();
         QuickSort qsort_q = new QuickSort(tsli);
         tShirt_qS = qsort_q.myquickSort_sicifi_asc(0, tsli.size() - 1);
@@ -388,7 +385,6 @@ public class QuickSort {
     }
 
     public void quickSortByColorDesc(int n, ArrayList<TShirt> tsli) {
-        ArrayList<TShirt> tShirt_qS;
         long starttime = System.currentTimeMillis();
         QuickSort qsort_q = new QuickSort(tsli);
         tShirt_qS = qsort_q.myquickSort_ci_desc(0, tsli.size() - 1);
@@ -401,7 +397,6 @@ public class QuickSort {
     }
 
     public void quickSortBySizeDesc(int n, ArrayList<TShirt> tsli) {
-        ArrayList<TShirt> tShirt_qS;
         long starttime = System.currentTimeMillis();
         QuickSort qsort_q = new QuickSort(tsli);
         tShirt_qS = qsort_q.myquickSort_si_desc(0, tsli.size() - 1);
@@ -414,7 +409,6 @@ public class QuickSort {
     }
 
     public void quickSortByFabricDesc(int n, ArrayList<TShirt> tsli) {
-        ArrayList<TShirt> tShirt_qS;
         long starttime = System.currentTimeMillis();
         QuickSort qsort_q = new QuickSort(tsli);
         tShirt_qS = qsort_q.myquickSort_fi_desc(0, tsli.size() - 1);
@@ -427,7 +421,6 @@ public class QuickSort {
     }
 
     public void quickSortBySizeColorFabricDesc(int n, ArrayList<TShirt> tsli) {
-        ArrayList<TShirt> tShirt_qS;
         long starttime = System.currentTimeMillis();
         QuickSort qsort_q = new QuickSort(tsli);
         tShirt_qS = qsort_q.myquickSort_sicifi_desc(0, tsli.size() - 1);
